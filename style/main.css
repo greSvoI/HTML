@@ -1,0 +1,336 @@
+/*body
+{
+    background-image: url(../image/fon.jpg);
+    background-size: cover;
+}*/
+@font-face {
+    font-family: 'Wetware Cyrillic';
+    src: url(../font/19950.otf);
+}
+.container-fluid
+{
+    font-size: 25px;
+}
+.title-font
+{
+    font-family: 'Wetware Cyrillic';
+    font-size: 70px;
+    animation: title-anime 2s linear infinite alternate;
+   
+}
+
+@keyframes title-anime
+{
+    from {
+        color: red;
+    }
+    to {
+       color:  #58687b;
+    }
+}
+
+ html {
+     font-size: 10px;
+ }
+ @media only screen and (max-width:1024px) {
+     html {
+         font-size: 9.375px;
+     }
+ }
+ @media only screen and (max-width:768px) {
+     html {
+         font-size: 10px;
+     }
+ }
+ @media only screen and (max-width:400px) {
+     html {
+         font-size: 9.375px;
+     }
+ }
+ 
+ 
+ 
+ 
+ @media only screen and (max-width:600px) {
+     h1, .h01 {
+         font-size: 2.6rem;
+         letter-spacing: -.07rem;
+     }
+ }
+ 
+ h2, .h02 {
+     font-size: 2.4rem;
+     line-height: 1.25;
+ }
+ h3, .h03 {
+     font-size: 2rem;
+     line-height: 1.5;
+ }
+ h4, .h04 {
+     font-size: 1.7rem;
+     line-height: 1.76;
+ }
+ h5, .h05 {
+     font-size: 1.4rem;
+     line-height: 1.7;
+     text-transform: uppercase;
+     letter-spacing: .15rem;
+ }
+ h6, .h06 {
+     font-size: 1.3rem;
+     line-height: 1.85;
+     text-transform: uppercase;
+     letter-spacing: .15rem;
+ }
+ 
+ 
+ 
+ .bgrid {
+     padding: 0 20px;
+ }
+ 
+ .button,
+ button,
+ input[type="submit"],
+ input[type="reset"],
+ input[type="button"] {
+     display: inline-block;
+     font-family: "raleway-bold", sans-serif;
+     font-size: 1.6rem;
+     height: 5rem;
+     line-height: 5rem;
+     padding: 0 3rem;
+     margin: 0 .3rem 1rem 0;
+     background: #d8d8d8;
+     color: #252525;
+     text-decoration: none;
+     cursor: pointer;
+     text-align: center;
+     white-space: nowrap;
+     border: none;
+     border-radius: 1000px;
+     -moz-transition: all 0.3s ease-in-out;
+     -o-transition: all 0.3s ease-in-out;
+     -webkit-transition: all 0.3s ease-in-out;
+     -ms-transition: all 0.3s ease-in-out;
+     transition: all 0.3s ease-in-out;
+ }
+ .button:hover,
+ button:hover,
+ input[type="submit"]:hover,
+ input[type="reset"]:hover,
+ input[type="button"]:hover,
+ .button:focus,
+ button:focus,
+ input[type="submit"]:focus,
+ input[type="reset"]:focus,
+ input[type="button"]:focus {
+     background: #bebebe;
+     color: #FFFFFF;
+     outline: 0;
+ }
+ 
+ .button.button-primary,
+ button.button-primary,
+ input[type="submit"].button-primary,
+ input[type="reset"].button-primary,
+ input[type="button"].button-primary {
+     background: #05bca9;
+     color: #FFFFFF;
+ }
+ 
+ .button.button-primary:hover,
+ button.button-primary:hover,
+ input[type="submit"].button-primary:hover,
+ input[type="reset"].button-primary:hover,
+ input[type="button"].button-primary:hover,
+ .button.button-primary:focus,
+ button.button-primary:focus,
+ input[type="submit"].button-primary:focus,
+ input[type="reset"].button-primary:focus,
+ input[type="button"].button-primary:focus {
+     background: #04998a;
+ }
+ button.full-width, .button.full-width {
+     width: 100%;
+     margin-right: 0;
+ }
+ button.medium, .button.medium {
+     height: 5.5rem !important;
+     line-height: 5.5rem !important;
+     padding: 0 1.8rem !important;
+ }
+ button.large, .button.large {
+     height: 6rem !important;
+     line-height: 6rem !important;
+     padding: 0rem 3rem !important;
+ }
+ button.round, .button.round {
+     padding-left: 3rem !important;
+     padding-right: 3rem !important;
+     border-radius: 1000px;
+ }
+ button.stroke, .button.stroke {
+     background: transparent !important;
+     border: 3px solid transparent;
+     line-height: 4.4rem;
+ }
+ button::-moz-focus-inner, input::-moz-focus-inner {
+     border: 0;
+     padding: 0;
+ }
+
+ 
+ .pricing-content {
+     margin-top: 6.6rem;
+     max-width: 250px;
+     
+ }
+ .pricing-content .bgrid {
+     margin-bottom: 3.6rem;
+ }
+ .pricing-content .price-block {
+     background-color: #FFFFFF;
+     border-radius: 10px;
+     overflow: hidden;
+     text-align: center;
+     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+ }
+ .pricing-content .price-block .top-part,
+ .pricing-content .price-block .bottom-part {
+     padding: 3.9rem 1.5rem;
+ }
+ .pricing-content .price-block .top-part {
+     background: #58687b;
+     color: #FFFFFF;
+     padding-bottom: 2.4rem;
+     position: relative;
+ }
+ .pricing-content .price-block .bottom-part {
+     padding-top: 2.4rem;
+     padding-left: 3rem;
+     padding-right: 3rem;
+ }
+ .pricing-content .price-block .plan-title {
+     color: #FFFFFF;
+     padding-bottom: 2.4rem;
+     margin-bottom: 1.2rem;
+     font-size: 2.4rem;
+     position: relative;
+ }
+ .pricing-content .price-block .plan-title::after {
+     
+     display: block;
+     background-color: rgba(255, 255, 255, 0.3);
+     width: 80px;
+     height: 1px;
+     content: '\0020';
+     position: absolute;
+     left: 50%;
+     bottom: 0;
+     margin-left: -40px;
+ }
+ .pricing-content .price-block .plan-price {
+     font-family: "raleway-bold", sans-serif;
+     font-size: 5rem;
+     line-height: 1;
+     margin-bottom: .6rem;
+ }
+ .pricing-content .price-block .plan-price sup {
+     font-size: 2.4rem;
+     top: -1.5rem;
+     margin-right: 3px;
+ }
+ .pricing-content .price-block .price-month {
+     margin-bottom: 1.2rem;
+     font-family: "raleway-bold", sans-serif;
+     font-size: 1.6rem;
+ }
+ .pricing-content .price-block .price-meta {
+     color: rgba(255, 255, 255, 0.5);
+     line-height: 1.8rem;
+ }
+ .pricing-content .price-block .button {
+     color: #353F49;
+     padding: 0 5rem;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ .pricing-content .price-block .button:hover,
+ .pricing-content .price-block .button:focus {
+     background: #58687b;
+     color: #FFFFFF;
+ }
+ .pricing-content .price-block .features {
+     list-style: none;
+     font-family: "raleway-bold", sans-serif;
+     font-size: 1.5rem;
+     color: rgba(0, 0, 0, 0.4);
+     margin: .6rem 0 1.8rem 0;
+ }
+ .pricing-content .price-block .features li {
+     padding: .6rem 0;
+     border-bottom: 1px solid #EAEAED;
+ }
+ .pricing-content .price-block .features li strong {
+     color: #353F49;
+     font-family: "raleway-bold", serif;
+     margin-right: 5px;
+ }
+ .pricing-content .price-block .features li:last-child {
+     border: none;
+ }
+ .pricing-content .primary .top-part {
+     background: #05bca9;
+ }
+ .pricing-content .primary .top-part::before {
+     content: attr(data-info);
+     display: block;
+     min-height: 48px;
+     line-height: 48px;
+     width: 75%;
+     text-align: center;
+     color: #FFFFFF;
+     background: #38424e;
+     font-family: "raleway-heavy", sans-serif;
+     font-size: 1.2rem;
+     text-transform: uppercase;
+     letter-spacing: .15rem;
+     position: absolute;
+     bottom: -18px;
+     left: 50%;
+     -webkit-transform: translateX(-50%);
+     -ms-transform: translateX(-50%);
+     transform: translateX(-50%);
+     z-index: 500;
+     border-radius: 5px;
+ }
+ 
+ @media only screen and (max-width:1140px) {
+     .pricing-content {
+         max-width: 300px;
+     }
+     .pricing-content .bgrid {
+         width: 50%;
+         clear: none;
+     }
+     .pricing-content .bgrid:nth-child(2n+1) {
+         clear: both;
+     }
+ }
+ @media only screen and (max-width:600px) {
+     .pricing-content {
+         max-width: 300px;
+     }
+     .pricing-content .bgrid {
+         width: 100% !important;
+         float: none !important;
+         clear: both !important;
+         margin-left: 0;
+         margin-right: 0;
+     }
+ }
+ 
+ 
+ 
+ 
