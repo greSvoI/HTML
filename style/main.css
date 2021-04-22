@@ -14,7 +14,7 @@
 .title-font
 {
     font-family: 'Wetware Cyrillic';
-    font-size: 70px;
+    font-size: 90px;
     animation: title-anime 2s linear infinite alternate;
    
 }
@@ -26,6 +26,8 @@
     }
     to {
        color:  #58687b;
+       font-size: 50px;
+       transform:rotateY(90deg);
     }
 }
 
